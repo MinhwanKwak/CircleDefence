@@ -1,0 +1,21 @@
+{
+    "name": "treeplla-editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f8e225aa37aa942f89f3e7d7108a2c7e",
+        "GUID:6546d7765b4165b40850b3667f981c26",
+        "GUID:b7f706f7e52a746f2b16ea5b60df3592",
+        "GUID:69448af7b92c7f342b298e06a37122aa"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

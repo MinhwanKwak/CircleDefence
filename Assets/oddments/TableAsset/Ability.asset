@@ -1,0 +1,477 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd26c2a5551a7bc4c810168dc20f6006, type: 3}
+  m_Name: Ability
+  m_EditorClassIdentifier: 
+  mFirstKey:
+  - 101
+  - 102
+  - 103
+  - 104
+  - 105
+  - 106
+  - 107
+  - 201
+  - 202
+  - 203
+  - 204
+  - 205
+  - 206
+  - 207
+  - 208
+  - 209
+  - 301
+  - 302
+  - 303
+  - 304
+  - 401
+  - 402
+  - 403
+  - 404
+  - 405
+  - 406
+  - 10001
+  - 10002
+  - 10003
+  - 10004
+  - 10101
+  - 10102
+  - 10103
+  - 10104
+  - 10105
+  - 10106
+  - 10107
+  - 10108
+  - 10201
+  - 10202
+  - 10203
+  - 10204
+  - 10205
+  - 10206
+  - 10207
+  - 10208
+  mSecondKey: []
+  mDataList:
+  - _idx: 101
+    _name: str_circle_101
+    _element_type: 1
+    _grade: 1
+    _power: 480
+    _a_speed: 120
+    _range: 3
+    _ability: 101
+    _icon: ui_circle_101
+  - _idx: 102
+    _name: str_circle_102
+    _element_type: 1
+    _grade: 2
+    _power: 1056
+    _a_speed: 110
+    _range: 3
+    _ability: 102
+    _icon: ui_circle_102
+  - _idx: 103
+    _name: str_circle_103
+    _element_type: 1
+    _grade: 2
+    _power: 950
+    _a_speed: 110
+    _range: 3
+    _ability: 103
+    _icon: ui_circle_103
+  - _idx: 104
+    _name: str_circle_104
+    _element_type: 1
+    _grade: 3
+    _power: 2880
+    _a_speed: 100
+    _range: 3
+    _ability: 104
+    _icon: ui_circle_104
+  - _idx: 105
+    _name: str_circle_105
+    _element_type: 1
+    _grade: 3
+    _power: 2592
+    _a_speed: 100
+    _range: 3
+    _ability: 105
+    _icon: ui_circle_105
+  - _idx: 106
+    _name: str_circle_106
+    _element_type: 1
+    _grade: 4
+    _power: 10368
+    _a_speed: 90
+    _range: 4
+    _ability: 106
+    _icon: ui_circle_106
+  - _idx: 107
+    _name: str_circle_107
+    _element_type: 1
+    _grade: 4
+    _power: 9331
+    _a_speed: 90
+    _range: 4
+    _ability: 107
+    _icon: ui_circle_107
+  - _idx: 201
+    _name: str_circle_201
+    _element_type: 2
+    _grade: 1
+    _power: 336
+    _a_speed: 200
+    _range: 5
+    _ability: 201
+    _icon: ui_circle_201
+  - _idx: 202
+    _name: str_circle_202
+    _element_type: 2
+    _grade: 2
+    _power: 622
+    _a_speed: 180
+    _range: 5
+    _ability: 202
+    _icon: ui_circle_202
+  - _idx: 203
+    _name: str_circle_203
+    _element_type: 2
+    _grade: 2
+    _power: 829
+    _a_speed: 180
+    _range: 5
+    _ability: 203
+    _icon: ui_circle_203
+  - _idx: 204
+    _name: str_circle_204
+    _element_type: 2
+    _grade: 3
+    _power: 1382
+    _a_speed: 160
+    _range: 5
+    _ability: 204
+    _icon: ui_circle_204
+  - _idx: 205
+    _name: str_circle_205
+    _element_type: 2
+    _grade: 3
+    _power: 1935
+    _a_speed: 160
+    _range: 5
+    _ability: 205
+    _icon: ui_circle_205
+  - _idx: 206
+    _name: str_circle_206
+    _element_type: 2
+    _grade: 3
+    _power: 2212
+    _a_speed: 160
+    _range: 5
+    _ability: 206
+    _icon: ui_circle_206
+  - _idx: 207
+    _name: str_circle_207
+    _element_type: 2
+    _grade: 4
+    _power: 4838
+    _a_speed: 140
+    _range: 5
+    _ability: 207
+    _icon: ui_circle_207
+  - _idx: 208
+    _name: str_circle_208
+    _element_type: 2
+    _grade: 4
+    _power: 6774
+    _a_speed: 140
+    _range: 5
+    _ability: 208
+    _icon: ui_circle_208
+  - _idx: 209
+    _name: str_circle_209
+    _element_type: 2
+    _grade: 4
+    _power: 7741
+    _a_speed: 140
+    _range: 5
+    _ability: 209
+    _icon: ui_circle_209
+  - _idx: 301
+    _name: str_circle_301
+    _element_type: 3
+    _grade: 1
+    _power: 800
+    _a_speed: 200
+    _range: 3
+    _ability: 301
+    _icon: ui_circle_301
+  - _idx: 302
+    _name: str_circle_302
+    _element_type: 3
+    _grade: 2
+    _power: 1920
+    _a_speed: 200
+    _range: 3
+    _ability: 302
+    _icon: ui_circle_302
+  - _idx: 303
+    _name: str_circle_303
+    _element_type: 3
+    _grade: 3
+    _power: 5760
+    _a_speed: 200
+    _range: 3
+    _ability: 302
+    _icon: ui_circle_303
+  - _idx: 304
+    _name: str_circle_304
+    _element_type: 3
+    _grade: 4
+    _power: 23040
+    _a_speed: 200
+    _range: 3
+    _ability: 302
+    _icon: ui_circle_304
+  - _idx: 401
+    _name: str_circle_401
+    _element_type: 4
+    _grade: 1
+    _power: 720
+    _a_speed: 200
+    _range: 4
+    _ability: 401
+    _icon: ui_circle_401
+  - _idx: 402
+    _name: str_circle_402
+    _element_type: 4
+    _grade: 2
+    _power: 1555
+    _a_speed: 180
+    _range: 4
+    _ability: 402
+    _icon: ui_circle_402
+  - _idx: 403
+    _name: str_circle_403
+    _element_type: 4
+    _grade: 3
+    _power: 4147
+    _a_speed: 160
+    _range: 4
+    _ability: 403
+    _icon: ui_circle_403
+  - _idx: 404
+    _name: str_circle_404
+    _element_type: 4
+    _grade: 3
+    _power: 6912
+    _a_speed: 500
+    _range: 5
+    _ability: 404
+    _icon: ui_circle_404
+  - _idx: 405
+    _name: str_circle_405
+    _element_type: 4
+    _grade: 4
+    _power: 14515
+    _a_speed: 140
+    _range: 4
+    _ability: 405
+    _icon: ui_circle_405
+  - _idx: 406
+    _name: str_circle_406
+    _element_type: 4
+    _grade: 4
+    _power: 19354
+    _a_speed: 400
+    _range: 5
+    _ability: 406
+    _icon: ui_circle_406
+  - _idx: 10001
+    _name: str_circle_10001
+    _element_type: 100
+    _grade: 1
+    _power: 200
+    _a_speed: 50
+    _range: 3
+    _ability: 10001
+    _icon: ui_circle_10001
+  - _idx: 10002
+    _name: str_circle_10002
+    _element_type: 100
+    _grade: 2
+    _power: 480
+    _a_speed: 50
+    _range: 3
+    _ability: 10001
+    _icon: ui_circle_10002
+  - _idx: 10003
+    _name: str_circle_10003
+    _element_type: 100
+    _grade: 3
+    _power: 1440
+    _a_speed: 50
+    _range: 3
+    _ability: 10001
+    _icon: ui_circle_10003
+  - _idx: 10004
+    _name: str_circle_10004
+    _element_type: 100
+    _grade: 4
+    _power: 5760
+    _a_speed: 50
+    _range: 3
+    _ability: 10001
+    _icon: ui_circle_10004
+  - _idx: 10101
+    _name: str_circle_10101
+    _element_type: 100
+    _grade: 1
+    _power: 0
+    _a_speed: 0
+    _range: 2
+    _ability: 10101
+    _icon: ui_circle_10101
+  - _idx: 10102
+    _name: str_circle_10102
+    _element_type: 100
+    _grade: 1
+    _power: 0
+    _a_speed: 0
+    _range: 2
+    _ability: 10102
+    _icon: ui_circle_10102
+  - _idx: 10103
+    _name: str_circle_10103
+    _element_type: 100
+    _grade: 2
+    _power: 0
+    _a_speed: 0
+    _range: 2
+    _ability: 10103
+    _icon: ui_circle_10103
+  - _idx: 10104
+    _name: str_circle_10104
+    _element_type: 100
+    _grade: 2
+    _power: 0
+    _a_speed: 0
+    _range: 2
+    _ability: 10104
+    _icon: ui_circle_10104
+  - _idx: 10105
+    _name: str_circle_10105
+    _element_type: 100
+    _grade: 3
+    _power: 0
+    _a_speed: 0
+    _range: 2
+    _ability: 10105
+    _icon: ui_circle_10105
+  - _idx: 10106
+    _name: str_circle_10106
+    _element_type: 100
+    _grade: 3
+    _power: 0
+    _a_speed: 0
+    _range: 2
+    _ability: 10106
+    _icon: ui_circle_10106
+  - _idx: 10107
+    _name: str_circle_10107
+    _element_type: 100
+    _grade: 4
+    _power: 0
+    _a_speed: 0
+    _range: 2
+    _ability: 10107
+    _icon: ui_circle_10107
+  - _idx: 10108
+    _name: str_circle_10108
+    _element_type: 100
+    _grade: 4
+    _power: 0
+    _a_speed: 0
+    _range: 2
+    _ability: 10108
+    _icon: ui_circle_10108
+  - _idx: 10201
+    _name: str_circle_10201
+    _element_type: 100
+    _grade: 1
+    _power: 0
+    _a_speed: 0
+    _range: 3
+    _ability: 10201
+    _icon: ui_circle_10201
+  - _idx: 10202
+    _name: str_circle_10202
+    _element_type: 100
+    _grade: 1
+    _power: 0
+    _a_speed: 0
+    _range: 3
+    _ability: 10202
+    _icon: ui_circle_10202
+  - _idx: 10203
+    _name: str_circle_10203
+    _element_type: 100
+    _grade: 2
+    _power: 0
+    _a_speed: 0
+    _range: 3
+    _ability: 10203
+    _icon: ui_circle_10203
+  - _idx: 10204
+    _name: str_circle_10204
+    _element_type: 100
+    _grade: 2
+    _power: 0
+    _a_speed: 0
+    _range: 3
+    _ability: 10204
+    _icon: ui_circle_10204
+  - _idx: 10205
+    _name: str_circle_10205
+    _element_type: 100
+    _grade: 3
+    _power: 0
+    _a_speed: 0
+    _range: 3
+    _ability: 10205
+    _icon: ui_circle_10205
+  - _idx: 10206
+    _name: str_circle_10206
+    _element_type: 100
+    _grade: 3
+    _power: 0
+    _a_speed: 0
+    _range: 3
+    _ability: 10206
+    _icon: ui_circle_10206
+  - _idx: 10207
+    _name: str_circle_10207
+    _element_type: 100
+    _grade: 4
+    _power: 0
+    _a_speed: 0
+    _range: 3
+    _ability: 10207
+    _icon: ui_circle_10207
+  - _idx: 10208
+    _name: str_circle_10208
+    _element_type: 100
+    _grade: 4
+    _power: 0
+    _a_speed: 0
+    _range: 3
+    _ability: 10208
+    _icon: ui_circle_10208

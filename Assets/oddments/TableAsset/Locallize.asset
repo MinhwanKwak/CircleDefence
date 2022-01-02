@@ -1,0 +1,389 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fd1ec8cd70f7b74abb42d1711dea5bd, type: 3}
+  m_Name: Locallize
+  m_EditorClassIdentifier: 
+  mFirstKey:
+  - str_lobby_runes
+  - str_lobby_shop_btn
+  - str_lobby_runes_btn
+  - str_lobby_lobby_btn
+  - str_lobby_quest_btn
+  - str_lobby_rank_btn
+  - str_lobby_chapter
+  - str_lobby_boss_stage
+  - str_stage_num
+  - str_lobby_start_btn
+  - str_wave_ing
+  - str_ingame_point
+  - str_ingame_merge
+  - str_ingame_create
+  - str_stage_toast_win
+  - str_stage_toast_die
+  - str_stage_clear
+  - str_clear_popup_btn1
+  - str_clear_popup_btn2
+  - str_mission_btn
+  - str_mission_complet
+  - str_gold
+  - str_gem
+  - str_runes_power
+  - str_runes_speed
+  - str_runes_light
+  - str_runes_all
+  - str_runes_lv
+  - str_runes_short_desc_power
+  - str_runes_short_desc_speed
+  - str_runes_short_desc_light
+  - str_runes_short_desc_all
+  - str_circle_101
+  - str_circle_102
+  - str_circle_103
+  - str_circle_104
+  - str_circle_105
+  - str_circle_106
+  - str_circle_107
+  - str_circle_201
+  - str_circle_202
+  - str_circle_203
+  - str_circle_204
+  - str_circle_205
+  - str_circle_206
+  - str_circle_207
+  - str_circle_208
+  - str_circle_209
+  - str_circle_301
+  - str_circle_302
+  - str_circle_303
+  - str_circle_304
+  - str_circle_401
+  - str_circle_402
+  - str_circle_403
+  - str_circle_404
+  - str_circle_405
+  - str_circle_406
+  - str_circle_10001
+  - str_circle_10002
+  - str_circle_10003
+  - str_circle_10004
+  - str_circle_10101
+  - str_circle_10102
+  - str_circle_10103
+  - str_circle_10104
+  - str_circle_10105
+  - str_circle_10106
+  - str_circle_10107
+  - str_circle_10108
+  - str_circle_10201
+  - str_circle_10202
+  - str_circle_10203
+  - str_circle_10204
+  - str_circle_10205
+  - str_circle_10206
+  - str_circle_10207
+  - str_circle_10208
+  - str_ability_101
+  - str_ability_102
+  - str_ability_103
+  - str_ability_104
+  - str_ability_105
+  - str_ability_106
+  - str_ability_107
+  - str_ability_201
+  - str_ability_202
+  - str_ability_203
+  - str_ability_204
+  - str_ability_205
+  - str_ability_206
+  - str_ability_207
+  - str_ability_208
+  - str_ability_209
+  - str_ability_301
+  - str_ability_302
+  - str_ability_401
+  - str_ability_402
+  - str_ability_403
+  - str_ability_404
+  - str_ability_405
+  - str_ability_406
+  - str_ability_10001
+  - str_ability_10101
+  - str_ability_10102
+  - str_ability_10103
+  - str_ability_10104
+  - str_ability_10105
+  - str_ability_10106
+  - str_ability_10107
+  - str_ability_10108
+  - str_ability_10201
+  - str_ability_10202
+  - str_ability_10203
+  - str_ability_10204
+  - str_ability_10205
+  - str_ability_10206
+  - str_ability_10207
+  - str_ability_10208
+  - str_chapter_1
+  - str_chapter_2
+  - str_chapter_3
+  - str_chapter_4
+  - str_chapter_5
+  mSecondKey: []
+  mDataList:
+  - _name: str_lobby_runes
+    _ko: "\uB8EC\uB825"
+  - _name: str_lobby_shop_btn
+    _ko: "\uC0C1\uC810"
+  - _name: str_lobby_runes_btn
+    _ko: "\uB8EC"
+  - _name: str_lobby_lobby_btn
+    _ko: "\uB85C\uBE44"
+  - _name: str_lobby_quest_btn
+    _ko: "\uD018\uC2A4\uD2B8"
+  - _name: str_lobby_rank_btn
+    _ko: "\uB7AD\uD0B9"
+  - _name: str_lobby_chapter
+    _ko: Ch{0}. {1}
+  - _name: str_lobby_boss_stage
+    _ko: BOSS
+  - _name: str_stage_num
+    _ko: "{0} \uCE35"
+  - _name: str_lobby_start_btn
+    _ko: START
+  - _name: str_wave_ing
+    _ko: "\uC6E8\uC774\uBE0C {0}"
+  - _name: str_ingame_point
+    _ko: '{0}P'
+  - _name: str_ingame_merge
+    _ko: "\uAC15\uD654"
+  - _name: str_ingame_create
+    _ko: "\uC18C\uD658"
+  - _name: str_stage_toast_win
+    _ko: WIN
+  - _name: str_stage_toast_die
+    _ko: DIE
+  - _name: str_stage_clear
+    _ko: "\uD074\uB9AC\uC5B4"
+  - _name: str_clear_popup_btn1
+    _ko: "\uB85C\uBE44"
+  - _name: str_clear_popup_btn2
+    _ko: "\uB2E4\uC74C"
+  - _name: str_mission_btn
+    _ko: "{0}P\n\uBC1B\uAE30"
+  - _name: str_mission_complet
+    _ko: "\uC644\uB8CC"
+  - _name: str_gold
+    _ko: "\uACE8\uB4DC"
+  - _name: str_gem
+    _ko: "\uBCF4\uC11D"
+  - _name: str_runes_power
+    _ko: "\uACA9\uB8EC"
+  - _name: str_runes_speed
+    _ko: "\uC18D\uB8EC"
+  - _name: str_runes_light
+    _ko: "\uBE5B\uB8EC"
+  - _name: str_runes_all
+    _ko: "\uC62C\uB8EC"
+  - _name: str_runes_lv
+    _ko: Lv.{0}
+  - _name: str_runes_short_desc_power
+    _ko: "\uACF5\uACA9\uB825"
+  - _name: str_runes_short_desc_speed
+    _ko: "\uACF5\uACA9\uC18D\uB3C4"
+  - _name: str_runes_short_desc_light
+    _ko: "\uBE5B\uC18D\uC131"
+  - _name: str_runes_short_desc_all
+    _ko: "\uC804\uCCB4\uACF5\uACA9"
+  - _name: str_circle_101
+    _ko: "\uBB3C \uC11C\uD074"
+  - _name: str_circle_102
+    _ko: "\uBB3C \uC11C\uD074"
+  - _name: str_circle_103
+    _ko: "\uBB3C \uC11C\uD074"
+  - _name: str_circle_104
+    _ko: "\uBB3C \uC11C\uD074"
+  - _name: str_circle_105
+    _ko: "\uBB3C \uC11C\uD074"
+  - _name: str_circle_106
+    _ko: "\uBB3C \uC11C\uD074"
+  - _name: str_circle_107
+    _ko: "\uBB3C \uC11C\uD074"
+  - _name: str_circle_201
+    _ko: "\uBD88 \uC11C\uD074"
+  - _name: str_circle_202
+    _ko: "\uBD88 \uC11C\uD074"
+  - _name: str_circle_203
+    _ko: "\uBD88 \uC11C\uD074"
+  - _name: str_circle_204
+    _ko: "\uBD88 \uC11C\uD074"
+  - _name: str_circle_205
+    _ko: "\uBD88 \uC11C\uD074"
+  - _name: str_circle_206
+    _ko: "\uBD88 \uC11C\uD074"
+  - _name: str_circle_207
+    _ko: "\uBD88 \uC11C\uD074"
+  - _name: str_circle_208
+    _ko: "\uBD88 \uC11C\uD074"
+  - _name: str_circle_209
+    _ko: "\uBD88 \uC11C\uD074"
+  - _name: str_circle_301
+    _ko: "\uBC14\uB78C \uC11C\uD074"
+  - _name: str_circle_302
+    _ko: "\uBC14\uB78C \uC11C\uD074"
+  - _name: str_circle_303
+    _ko: "\uBC14\uB78C \uC11C\uD074"
+  - _name: str_circle_304
+    _ko: "\uBC14\uB78C \uC11C\uD074"
+  - _name: str_circle_401
+    _ko: "\uB300\uC9C0 \uC11C\uD074"
+  - _name: str_circle_402
+    _ko: "\uB300\uC9C0 \uC11C\uD074"
+  - _name: str_circle_403
+    _ko: "\uB300\uC9C0 \uC11C\uD074"
+  - _name: str_circle_404
+    _ko: "\uB300\uC9C0 \uC11C\uD074"
+  - _name: str_circle_405
+    _ko: "\uB300\uC9C0 \uC11C\uD074"
+  - _name: str_circle_406
+    _ko: "\uB300\uC9C0 \uC11C\uD074"
+  - _name: str_circle_10001
+    _ko: "\uBB34\uC18D\uC131 \uC11C\uD074"
+  - _name: str_circle_10002
+    _ko: "\uBB34\uC18D\uC131 \uC11C\uD074"
+  - _name: str_circle_10003
+    _ko: "\uBB34\uC18D\uC131 \uC11C\uD074"
+  - _name: str_circle_10004
+    _ko: "\uBB34\uC18D\uC131 \uC11C\uD074"
+  - _name: str_circle_10101
+    _ko: "\uB514\uBC84\uD504 \uC11C\uD074"
+  - _name: str_circle_10102
+    _ko: "\uB514\uBC84\uD504 \uC11C\uD074"
+  - _name: str_circle_10103
+    _ko: "\uB514\uBC84\uD504 \uC11C\uD074"
+  - _name: str_circle_10104
+    _ko: "\uB514\uBC84\uD504 \uC11C\uD074"
+  - _name: str_circle_10105
+    _ko: "\uB514\uBC84\uD504 \uC11C\uD074"
+  - _name: str_circle_10106
+    _ko: "\uB514\uBC84\uD504 \uC11C\uD074"
+  - _name: str_circle_10107
+    _ko: "\uB514\uBC84\uD504 \uC11C\uD074"
+  - _name: str_circle_10108
+    _ko: "\uB514\uBC84\uD504 \uC11C\uD074"
+  - _name: str_circle_10201
+    _ko: "\uBC84\uD504 \uC11C\uD074"
+  - _name: str_circle_10202
+    _ko: "\uBC84\uD504 \uC11C\uD074"
+  - _name: str_circle_10203
+    _ko: "\uBC84\uD504 \uC11C\uD074"
+  - _name: str_circle_10204
+    _ko: "\uBC84\uD504 \uC11C\uD074"
+  - _name: str_circle_10205
+    _ko: "\uBC84\uD504 \uC11C\uD074"
+  - _name: str_circle_10206
+    _ko: "\uBC84\uD504 \uC11C\uD074"
+  - _name: str_circle_10207
+    _ko: "\uBC84\uD504 \uC11C\uD074"
+  - _name: str_circle_10208
+    _ko: "\uBC84\uD504 \uC11C\uD074"
+  - _name: str_ability_101
+    _ko: "\uB2E8\uC77CA"
+  - _name: str_ability_102
+    _ko: "\uB2E8\uC77CA"
+  - _name: str_ability_103
+    _ko: "\uB2E8\uC77CB"
+  - _name: str_ability_104
+    _ko: "\uC9C0\uC5ED\uBC94\uC704A"
+  - _name: str_ability_105
+    _ko: "\uC9C0\uC5ED\uBC94\uC704B"
+  - _name: str_ability_106
+    _ko: "\uC9C0\uC5ED\uBC94\uC704A(\uAC10\uC18D)"
+  - _name: str_ability_107
+    _ko: "\uC9C0\uC5ED\uBC94\uC704B(\uAC10\uC18D)"
+  - _name: str_ability_201
+    _ko: "\uBCF8\uCCB4\uBC94\uC704"
+  - _name: str_ability_202
+    _ko: "\uBCF8\uCCB4\uBC94\uC704"
+  - _name: str_ability_203
+    _ko: "\uC9C0\uC5ED\uBC94\uC704"
+  - _name: str_ability_204
+    _ko: "\uBCF8\uCCB4\uBC94\uC704"
+  - _name: str_ability_205
+    _ko: "\uC9C0\uC5ED\uBC94\uC704"
+  - _name: str_ability_206
+    _ko: "\uB79C\uB364\uBC94\uC704"
+  - _name: str_ability_207
+    _ko: "\uBCF8\uCCB4\uBC94\uC704(\uD654\uC0C1)"
+  - _name: str_ability_208
+    _ko: "\uC9C0\uC5ED\uBC94\uC704(\uD654\uC0C1)"
+  - _name: str_ability_209
+    _ko: "\uB79C\uB364\uBC94\uC704(\uD654\uC0C1)"
+  - _name: str_ability_301
+    _ko: "\uB2E8\uC77C"
+  - _name: str_ability_302
+    _ko: "\uB2E8\uC77C(\uACF5\uC18D\uAC15\uD654)"
+  - _name: str_ability_401
+    _ko: "\uB2E8\uC77CC"
+  - _name: str_ability_402
+    _ko: "\uB2E8\uC77CD"
+  - _name: str_ability_403
+    _ko: "\uB2E8\uC77CE"
+  - _name: str_ability_404
+    _ko: "\uC9C1\uC120\uBC94\uC704"
+  - _name: str_ability_405
+    _ko: "\uB2E8\uC77CF(\uAE30\uC808)"
+  - _name: str_ability_406
+    _ko: "\uC9C1\uC120\uBC94\uC704(\uAE30\uC808)"
+  - _name: str_ability_10001
+    _ko: "\uB2E8\uC77CA"
+  - _name: str_ability_10101
+    _ko: "\uB514\uBC84\uD504(\uAC10\uC18D)"
+  - _name: str_ability_10102
+    _ko: "\uB514\uBC84\uD504(\uC0DD\uBA85\uB2E8\uCD95)"
+  - _name: str_ability_10103
+    _ko: "\uB514\uBC84\uD504(\uAC10\uC18D)"
+  - _name: str_ability_10104
+    _ko: "\uB514\uBC84\uD504(\uC0DD\uBA85\uB2E8\uCD95)"
+  - _name: str_ability_10105
+    _ko: "\uB514\uBC84\uD504(\uAC10\uC18D)"
+  - _name: str_ability_10106
+    _ko: "\uB514\uBC84\uD504(\uC0DD\uBA85\uB2E8\uCD95)"
+  - _name: str_ability_10107
+    _ko: "\uB514\uBC84\uD504(\uAC10\uC18D)"
+  - _name: str_ability_10108
+    _ko: "\uB514\uBC84\uD504(\uC0DD\uBA85\uB2E8\uCD95)"
+  - _name: str_ability_10201
+    _ko: "\uBC84\uD504(\uACF5\uACA9\uB825)"
+  - _name: str_ability_10202
+    _ko: "\uBC84\uD504(\uACF5\uACA9\uC18D\uB3C4)"
+  - _name: str_ability_10203
+    _ko: "\uBC84\uD504(\uACF5\uACA9\uB825)"
+  - _name: str_ability_10204
+    _ko: "\uBC84\uD504(\uACF5\uACA9\uC18D\uB3C4)"
+  - _name: str_ability_10205
+    _ko: "\uBC84\uD504(\uACF5\uACA9\uB825)"
+  - _name: str_ability_10206
+    _ko: "\uBC84\uD504(\uACF5\uACA9\uC18D\uB3C4)"
+  - _name: str_ability_10207
+    _ko: "\uBC84\uD504(\uACF5\uACA9\uB825)"
+  - _name: str_ability_10208
+    _ko: "\uBC84\uD504(\uACF5\uACA9\uC18D\uB3C4)"
+  - _name: str_chapter_1
+    _ko: "\uCC55\uD1301"
+  - _name: str_chapter_2
+    _ko: "\uCC55\uD1302"
+  - _name: str_chapter_3
+    _ko: "\uCC55\uD1303"
+  - _name: str_chapter_4
+    _ko: "\uCC55\uD1304"
+  - _name: str_chapter_5
+    _ko: "\uCC55\uD1305"

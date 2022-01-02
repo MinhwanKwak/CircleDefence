@@ -1,0 +1,827 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ccf9e9d580881c4aa9d408c9374ae3a, type: 3}
+  m_Name: Monster
+  m_EditorClassIdentifier: 
+  mFirstKey:
+  - 101
+  - 102
+  - 103
+  - 104
+  - 105
+  - 106
+  - 107
+  - 1001
+  - 1002
+  - 1003
+  - 1004
+  - 1005
+  - 1006
+  - 10001
+  - 10002
+  - 201
+  - 202
+  - 203
+  - 204
+  - 205
+  - 206
+  - 207
+  - 2001
+  - 2002
+  - 2003
+  - 2004
+  - 2005
+  - 2006
+  - 20001
+  - 20002
+  - 301
+  - 302
+  - 303
+  - 304
+  - 305
+  - 306
+  - 307
+  - 3001
+  - 3002
+  - 3003
+  - 3004
+  - 3005
+  - 3006
+  - 30001
+  - 30002
+  - 401
+  - 402
+  - 403
+  - 404
+  - 405
+  - 406
+  - 407
+  - 4001
+  - 4002
+  - 4003
+  - 4004
+  - 4005
+  - 4006
+  - 40001
+  - 40002
+  - 1101
+  - 1102
+  - 1103
+  - 1104
+  - 1105
+  - 1106
+  - 1107
+  - 11001
+  - 11002
+  - 11003
+  - 11004
+  - 11005
+  - 11006
+  - 110001
+  - 110002
+  - 1201
+  - 1202
+  - 1203
+  - 1204
+  - 1205
+  - 1206
+  - 1207
+  - 12001
+  - 12002
+  - 12003
+  - 12004
+  - 12005
+  - 12006
+  - 120001
+  - 120002
+  mSecondKey: []
+  mDataList:
+  - _idx: 101
+    _monster_layer: 1
+    _element_type: 1
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_101
+  - _idx: 102
+    _monster_layer: 1
+    _element_type: 1
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_102
+  - _idx: 103
+    _monster_layer: 1
+    _element_type: 1
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_103
+  - _idx: 104
+    _monster_layer: 1
+    _element_type: 1
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_104
+  - _idx: 105
+    _monster_layer: 1
+    _element_type: 1
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_105
+  - _idx: 106
+    _monster_layer: 1
+    _element_type: 1
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_106
+  - _idx: 107
+    _monster_layer: 1
+    _element_type: 1
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_107
+  - _idx: 1001
+    _monster_layer: 2
+    _element_type: 1
+    _hp_rate: 150
+    _m_speed: 60
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_1001
+  - _idx: 1002
+    _monster_layer: 2
+    _element_type: 1
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_1002
+  - _idx: 1003
+    _monster_layer: 2
+    _element_type: 1
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_1003
+  - _idx: 1004
+    _monster_layer: 2
+    _element_type: 1
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_1004
+  - _idx: 1005
+    _monster_layer: 2
+    _element_type: 1
+    _hp_rate: 25
+    _m_speed: 10
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_1005
+  - _idx: 1006
+    _monster_layer: 2
+    _element_type: 1
+    _hp_rate: 25
+    _m_speed: 10
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_1006
+  - _idx: 10001
+    _monster_layer: 3
+    _element_type: 1
+    _hp_rate: 4000
+    _m_speed: 40
+    _ability_immune: 1
+    _point: 600
+    _icon: ui_monster_10001
+  - _idx: 10002
+    _monster_layer: 3
+    _element_type: 1
+    _hp_rate: 4000
+    _m_speed: 40
+    _ability_immune: 1
+    _point: 600
+    _icon: ui_monster_10002
+  - _idx: 201
+    _monster_layer: 1
+    _element_type: 2
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_201
+  - _idx: 202
+    _monster_layer: 1
+    _element_type: 2
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_202
+  - _idx: 203
+    _monster_layer: 1
+    _element_type: 2
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_203
+  - _idx: 204
+    _monster_layer: 1
+    _element_type: 2
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_204
+  - _idx: 205
+    _monster_layer: 1
+    _element_type: 2
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_205
+  - _idx: 206
+    _monster_layer: 1
+    _element_type: 2
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_206
+  - _idx: 207
+    _monster_layer: 1
+    _element_type: 2
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_207
+  - _idx: 2001
+    _monster_layer: 2
+    _element_type: 2
+    _hp_rate: 150
+    _m_speed: 60
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_2001
+  - _idx: 2002
+    _monster_layer: 2
+    _element_type: 2
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_2002
+  - _idx: 2003
+    _monster_layer: 2
+    _element_type: 2
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_2003
+  - _idx: 2004
+    _monster_layer: 2
+    _element_type: 2
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_2004
+  - _idx: 2005
+    _monster_layer: 2
+    _element_type: 2
+    _hp_rate: 25
+    _m_speed: 10
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_2005
+  - _idx: 2006
+    _monster_layer: 2
+    _element_type: 2
+    _hp_rate: 25
+    _m_speed: 10
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_2006
+  - _idx: 20001
+    _monster_layer: 3
+    _element_type: 2
+    _hp_rate: 4000
+    _m_speed: 40
+    _ability_immune: 1
+    _point: 600
+    _icon: ui_monster_20001
+  - _idx: 20002
+    _monster_layer: 3
+    _element_type: 2
+    _hp_rate: 4000
+    _m_speed: 40
+    _ability_immune: 1
+    _point: 600
+    _icon: ui_monster_20002
+  - _idx: 301
+    _monster_layer: 1
+    _element_type: 3
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_301
+  - _idx: 302
+    _monster_layer: 1
+    _element_type: 3
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_302
+  - _idx: 303
+    _monster_layer: 1
+    _element_type: 3
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_303
+  - _idx: 304
+    _monster_layer: 1
+    _element_type: 3
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_304
+  - _idx: 305
+    _monster_layer: 1
+    _element_type: 3
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_305
+  - _idx: 306
+    _monster_layer: 1
+    _element_type: 3
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_306
+  - _idx: 307
+    _monster_layer: 1
+    _element_type: 3
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_307
+  - _idx: 3001
+    _monster_layer: 2
+    _element_type: 3
+    _hp_rate: 150
+    _m_speed: 60
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_3001
+  - _idx: 3002
+    _monster_layer: 2
+    _element_type: 3
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_3002
+  - _idx: 3003
+    _monster_layer: 2
+    _element_type: 3
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_3003
+  - _idx: 3004
+    _monster_layer: 2
+    _element_type: 3
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_3004
+  - _idx: 3005
+    _monster_layer: 2
+    _element_type: 3
+    _hp_rate: 25
+    _m_speed: 10
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_3005
+  - _idx: 3006
+    _monster_layer: 2
+    _element_type: 3
+    _hp_rate: 25
+    _m_speed: 10
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_3006
+  - _idx: 30001
+    _monster_layer: 3
+    _element_type: 3
+    _hp_rate: 4000
+    _m_speed: 40
+    _ability_immune: 1
+    _point: 600
+    _icon: ui_monster_30001
+  - _idx: 30002
+    _monster_layer: 3
+    _element_type: 3
+    _hp_rate: 4000
+    _m_speed: 40
+    _ability_immune: 1
+    _point: 600
+    _icon: ui_monster_30002
+  - _idx: 401
+    _monster_layer: 1
+    _element_type: 4
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_401
+  - _idx: 402
+    _monster_layer: 1
+    _element_type: 4
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_402
+  - _idx: 403
+    _monster_layer: 1
+    _element_type: 4
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_403
+  - _idx: 404
+    _monster_layer: 1
+    _element_type: 4
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_404
+  - _idx: 405
+    _monster_layer: 1
+    _element_type: 4
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_405
+  - _idx: 406
+    _monster_layer: 1
+    _element_type: 4
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_406
+  - _idx: 407
+    _monster_layer: 1
+    _element_type: 4
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_407
+  - _idx: 4001
+    _monster_layer: 2
+    _element_type: 4
+    _hp_rate: 150
+    _m_speed: 60
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_4001
+  - _idx: 4002
+    _monster_layer: 2
+    _element_type: 4
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_4002
+  - _idx: 4003
+    _monster_layer: 2
+    _element_type: 4
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_4003
+  - _idx: 4004
+    _monster_layer: 2
+    _element_type: 4
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_4004
+  - _idx: 4005
+    _monster_layer: 2
+    _element_type: 4
+    _hp_rate: 25
+    _m_speed: 10
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_4005
+  - _idx: 4006
+    _monster_layer: 2
+    _element_type: 4
+    _hp_rate: 25
+    _m_speed: 10
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_4006
+  - _idx: 40001
+    _monster_layer: 3
+    _element_type: 4
+    _hp_rate: 4000
+    _m_speed: 40
+    _ability_immune: 1
+    _point: 600
+    _icon: ui_monster_40001
+  - _idx: 40002
+    _monster_layer: 3
+    _element_type: 4
+    _hp_rate: 4000
+    _m_speed: 40
+    _ability_immune: 1
+    _point: 600
+    _icon: ui_monster_40002
+  - _idx: 1101
+    _monster_layer: 1
+    _element_type: 100
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_1101
+  - _idx: 1102
+    _monster_layer: 1
+    _element_type: 100
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_1102
+  - _idx: 1103
+    _monster_layer: 1
+    _element_type: 100
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_1103
+  - _idx: 1104
+    _monster_layer: 1
+    _element_type: 100
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_1104
+  - _idx: 1105
+    _monster_layer: 1
+    _element_type: 100
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_1105
+  - _idx: 1106
+    _monster_layer: 1
+    _element_type: 100
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_1106
+  - _idx: 1107
+    _monster_layer: 1
+    _element_type: 100
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_1107
+  - _idx: 11001
+    _monster_layer: 2
+    _element_type: 100
+    _hp_rate: 150
+    _m_speed: 60
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_11001
+  - _idx: 11002
+    _monster_layer: 2
+    _element_type: 100
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_11002
+  - _idx: 11003
+    _monster_layer: 2
+    _element_type: 100
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_11003
+  - _idx: 11004
+    _monster_layer: 2
+    _element_type: 100
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_11004
+  - _idx: 11005
+    _monster_layer: 2
+    _element_type: 100
+    _hp_rate: 25
+    _m_speed: 10
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_11005
+  - _idx: 11006
+    _monster_layer: 2
+    _element_type: 100
+    _hp_rate: 25
+    _m_speed: 10
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_11006
+  - _idx: 110001
+    _monster_layer: 3
+    _element_type: 100
+    _hp_rate: 4000
+    _m_speed: 40
+    _ability_immune: 1
+    _point: 600
+    _icon: ui_monster_110001
+  - _idx: 110002
+    _monster_layer: 3
+    _element_type: 100
+    _hp_rate: 4000
+    _m_speed: 40
+    _ability_immune: 1
+    _point: 600
+    _icon: ui_monster_110002
+  - _idx: 1201
+    _monster_layer: 1
+    _element_type: 101
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_1201
+  - _idx: 1202
+    _monster_layer: 1
+    _element_type: 101
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_1202
+  - _idx: 1203
+    _monster_layer: 1
+    _element_type: 101
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_1203
+  - _idx: 1204
+    _monster_layer: 1
+    _element_type: 101
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_1204
+  - _idx: 1205
+    _monster_layer: 1
+    _element_type: 101
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_1205
+  - _idx: 1206
+    _monster_layer: 1
+    _element_type: 101
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_1206
+  - _idx: 1207
+    _monster_layer: 1
+    _element_type: 101
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_1207
+  - _idx: 12001
+    _monster_layer: 2
+    _element_type: 101
+    _hp_rate: 150
+    _m_speed: 60
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_12001
+  - _idx: 12002
+    _monster_layer: 2
+    _element_type: 101
+    _hp_rate: 100
+    _m_speed: 40
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_12002
+  - _idx: 12003
+    _monster_layer: 2
+    _element_type: 101
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_12003
+  - _idx: 12004
+    _monster_layer: 2
+    _element_type: 101
+    _hp_rate: 50
+    _m_speed: 20
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_12004
+  - _idx: 12005
+    _monster_layer: 2
+    _element_type: 101
+    _hp_rate: 25
+    _m_speed: 10
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_12005
+  - _idx: 12006
+    _monster_layer: 2
+    _element_type: 101
+    _hp_rate: 25
+    _m_speed: 10
+    _ability_immune: -1
+    _point: 120
+    _icon: ui_monster_12006
+  - _idx: 120001
+    _monster_layer: 3
+    _element_type: 101
+    _hp_rate: 4000
+    _m_speed: 40
+    _ability_immune: 1
+    _point: 600
+    _icon: ui_monster_120001
+  - _idx: 120002
+    _monster_layer: 3
+    _element_type: 101
+    _hp_rate: 4000
+    _m_speed: 40
+    _ability_immune: 1
+    _point: 600
+    _icon: ui_monster_120002

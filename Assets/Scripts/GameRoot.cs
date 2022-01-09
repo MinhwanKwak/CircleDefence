@@ -8,10 +8,21 @@ public class GameRoot : MonoBehaviour
 {
     public UISystem UISystem { get; private set; } = new UISystem();
     public UserDataSystem UserDataSystem { get; private set; } = new UserDataSystem();
+    public MonsterWaveSystem MonsterWaveSystem { get; private set; } = new MonsterWaveSystem();
+    public InGameSystem ingamesystem { get; private set; } = new InGameSystem();
+
+    public Transform WorldCanvasTr;
+
+    public Transform UiCanvasTr;
 
     public static GameRoot Instance;
 
     private static bool InitTry = false;
+
+    public InGameStage CurInGameStage {get; private set;}
+
+
+
 
     public static bool LoadComplete { get; private set; } = false;
 
@@ -25,6 +36,12 @@ public class GameRoot : MonoBehaviour
 
         UserDataSystem.Create();
         UserDataSystem.LoadUserData();
+        StartCoroutine(LoadGameData());
+
+        if(LoadComplete)
+        {
+            ingamesystem.InGameLoad();
+        }
     }
 
 
@@ -57,9 +74,10 @@ public class GameRoot : MonoBehaviour
         yield return Config.Create();
         yield return Tables.Create();
 
-
         LoadComplete = true;
     }
+
+
 
 
 }

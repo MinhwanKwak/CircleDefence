@@ -55,6 +55,13 @@ namespace oddments
 			get { return _misson_idx;}
 			set { _misson_idx = value;}
 		}
+		[SerializeField]
+		private string _Stage_BG;
+		public string Stage_BG
+		{
+			get { return _Stage_BG;}
+			set { _Stage_BG = value;}
+		}
 
     }
 

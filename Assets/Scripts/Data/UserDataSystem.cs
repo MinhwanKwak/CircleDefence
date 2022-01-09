@@ -31,13 +31,7 @@ public class UserDataSystem
 
         if (data != null)
         {
-            userdata.level = data.level;
-            userdata.health = data.health;
-            userdata.IsCreate = data.IsCreate;
-            for (int i = 0; i < data.ExchangeDatas.Length; ++i)
-            {
-                userdata.ExchangeDatas[i] = data.ExchangeDatas[i];
-            }
+            userdata.CurStageIdx = data.CurStageIdx;
         }
     }
 

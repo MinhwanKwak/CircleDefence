@@ -6,9 +6,7 @@ namespace oddments
     [System.Serializable]
     public class UserData
     {
-        public int level;
-        public int health;
-        public int[] ExchangeDatas;
+        public int CurStageIdx;
         public bool IsCreate = false;
 
 
@@ -17,10 +15,7 @@ namespace oddments
         {
             var userdata = GameRoot.Instance.UserDataSystem.userdata;
        
-            userdata.level = 0;
-            userdata.health = 0;
-            userdata.ExchangeDatas = new int[10];
-            userdata.IsCreate = false;
+            userdata.IsCreate = true;
         }
     }
 }

@@ -16,7 +16,11 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 4f7b7c1153c1204439a833a0d5dea0c6
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 2c385f29c50f4e14fa29a6fcb20221c7
+    m_Address: Assets/Prefabs/Stage/Stage_BG.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 1e67b0cb427cbad4eb2d5aec851cbe55, type: 2}
   m_SchemaSet:

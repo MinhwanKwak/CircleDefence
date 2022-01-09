@@ -102,6 +102,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 100
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 2
     _wave_idx: 2
     _max_monster: 80
@@ -109,6 +110,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 101
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 3
     _wave_idx: 3
     _max_monster: 80
@@ -116,6 +118,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 102
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 4
     _wave_idx: 4
     _max_monster: 80
@@ -123,6 +126,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 103
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 5
     _wave_idx: 999
     _max_monster: 80
@@ -130,6 +134,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 104
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 6
     _wave_idx: 1
     _max_monster: 80
@@ -137,6 +142,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 105
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 7
     _wave_idx: 2
     _max_monster: 80
@@ -144,6 +150,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 106
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 8
     _wave_idx: 3
     _max_monster: 80
@@ -151,6 +158,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 107
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 9
     _wave_idx: 4
     _max_monster: 80
@@ -158,6 +166,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 108
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 10
     _wave_idx: 100
     _max_monster: 80
@@ -165,6 +174,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 113
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 11
     _wave_idx: 1
     _max_monster: 80
@@ -172,6 +182,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 114
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 12
     _wave_idx: 2
     _max_monster: 80
@@ -179,6 +190,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 115
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 13
     _wave_idx: 3
     _max_monster: 80
@@ -186,6 +198,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 116
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 14
     _wave_idx: 4
     _max_monster: 80
@@ -193,6 +206,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 117
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 15
     _wave_idx: 999
     _max_monster: 80
@@ -200,6 +214,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 118
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 16
     _wave_idx: 101
     _max_monster: 50
@@ -207,6 +222,7 @@ MonoBehaviour:
     _reward_value: 30
     _stage_increment_hp: 128
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 17
     _wave_idx: 1
     _max_monster: 80
@@ -214,6 +230,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 113
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 18
     _wave_idx: 2
     _max_monster: 80
@@ -221,6 +238,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 114
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 19
     _wave_idx: 3
     _max_monster: 80
@@ -228,6 +246,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 115
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 20
     _wave_idx: 4
     _max_monster: 80
@@ -235,6 +254,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 116
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 21
     _wave_idx: 999
     _max_monster: 80
@@ -242,6 +262,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 117
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 22
     _wave_idx: 1
     _max_monster: 80
@@ -249,6 +270,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 118
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 23
     _wave_idx: 2
     _max_monster: 80
@@ -256,6 +278,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 119
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 24
     _wave_idx: 3
     _max_monster: 80
@@ -263,6 +286,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 120
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 25
     _wave_idx: 4
     _max_monster: 80
@@ -270,6 +294,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 121
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 26
     _wave_idx: 100
     _max_monster: 80
@@ -277,6 +302,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 126
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 27
     _wave_idx: 1
     _max_monster: 80
@@ -284,6 +310,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 127
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 28
     _wave_idx: 2
     _max_monster: 80
@@ -291,6 +318,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 128
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 29
     _wave_idx: 3
     _max_monster: 80
@@ -298,6 +326,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 129
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 30
     _wave_idx: 4
     _max_monster: 80
@@ -305,6 +334,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 130
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 31
     _wave_idx: 999
     _max_monster: 80
@@ -312,6 +342,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 131
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 32
     _wave_idx: 101
     _max_monster: 50
@@ -319,6 +350,7 @@ MonoBehaviour:
     _reward_value: 30
     _stage_increment_hp: 141
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 33
     _wave_idx: 1
     _max_monster: 80
@@ -326,6 +358,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 126
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 34
     _wave_idx: 2
     _max_monster: 80
@@ -333,6 +366,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 127
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 35
     _wave_idx: 3
     _max_monster: 80
@@ -340,6 +374,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 128
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 36
     _wave_idx: 4
     _max_monster: 80
@@ -347,6 +382,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 129
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 37
     _wave_idx: 999
     _max_monster: 80
@@ -354,6 +390,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 130
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 38
     _wave_idx: 1
     _max_monster: 80
@@ -361,6 +398,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 131
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 39
     _wave_idx: 2
     _max_monster: 80
@@ -368,6 +406,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 132
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 40
     _wave_idx: 3
     _max_monster: 80
@@ -375,6 +414,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 133
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 41
     _wave_idx: 4
     _max_monster: 80
@@ -382,6 +422,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 134
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 42
     _wave_idx: 100
     _max_monster: 80
@@ -389,6 +430,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 139
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 43
     _wave_idx: 1
     _max_monster: 80
@@ -396,6 +438,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 140
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 44
     _wave_idx: 2
     _max_monster: 80
@@ -403,6 +446,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 141
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 45
     _wave_idx: 3
     _max_monster: 80
@@ -410,6 +454,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 142
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 46
     _wave_idx: 4
     _max_monster: 80
@@ -417,6 +462,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 143
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 47
     _wave_idx: 999
     _max_monster: 80
@@ -424,6 +470,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 144
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 48
     _wave_idx: 101
     _max_monster: 50
@@ -431,6 +478,7 @@ MonoBehaviour:
     _reward_value: 30
     _stage_increment_hp: 154
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 49
     _wave_idx: 1
     _max_monster: 80
@@ -438,6 +486,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 139
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 50
     _wave_idx: 2
     _max_monster: 80
@@ -445,6 +494,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 140
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 51
     _wave_idx: 3
     _max_monster: 80
@@ -452,6 +502,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 141
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 52
     _wave_idx: 4
     _max_monster: 80
@@ -459,6 +510,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 142
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 53
     _wave_idx: 999
     _max_monster: 80
@@ -466,6 +518,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 143
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 54
     _wave_idx: 1
     _max_monster: 80
@@ -473,6 +526,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 144
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 55
     _wave_idx: 2
     _max_monster: 80
@@ -480,6 +534,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 145
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 56
     _wave_idx: 3
     _max_monster: 80
@@ -487,6 +542,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 146
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 57
     _wave_idx: 4
     _max_monster: 80
@@ -494,6 +550,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 147
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 58
     _wave_idx: 100
     _max_monster: 80
@@ -501,6 +558,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 152
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 59
     _wave_idx: 1
     _max_monster: 80
@@ -508,6 +566,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 153
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 60
     _wave_idx: 2
     _max_monster: 80
@@ -515,6 +574,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 154
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 61
     _wave_idx: 3
     _max_monster: 80
@@ -522,6 +582,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 155
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 62
     _wave_idx: 4
     _max_monster: 80
@@ -529,6 +590,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 156
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 63
     _wave_idx: 999
     _max_monster: 80
@@ -536,6 +598,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 157
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 64
     _wave_idx: 101
     _max_monster: 50
@@ -543,6 +606,7 @@ MonoBehaviour:
     _reward_value: 30
     _stage_increment_hp: 167
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 65
     _wave_idx: 1
     _max_monster: 80
@@ -550,6 +614,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 152
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 66
     _wave_idx: 2
     _max_monster: 80
@@ -557,6 +622,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 153
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 67
     _wave_idx: 3
     _max_monster: 80
@@ -564,6 +630,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 154
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 68
     _wave_idx: 4
     _max_monster: 80
@@ -571,6 +638,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 155
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 69
     _wave_idx: 999
     _max_monster: 80
@@ -578,6 +646,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 156
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 70
     _wave_idx: 1
     _max_monster: 80
@@ -585,6 +654,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 157
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 71
     _wave_idx: 2
     _max_monster: 80
@@ -592,6 +662,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 158
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 72
     _wave_idx: 3
     _max_monster: 80
@@ -599,6 +670,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 159
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 73
     _wave_idx: 4
     _max_monster: 80
@@ -606,6 +678,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 160
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 74
     _wave_idx: 100
     _max_monster: 80
@@ -613,6 +686,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 165
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 75
     _wave_idx: 1
     _max_monster: 80
@@ -620,6 +694,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 166
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 76
     _wave_idx: 2
     _max_monster: 80
@@ -627,6 +702,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 167
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 77
     _wave_idx: 3
     _max_monster: 80
@@ -634,6 +710,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 168
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 78
     _wave_idx: 4
     _max_monster: 80
@@ -641,6 +718,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 169
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 79
     _wave_idx: 999
     _max_monster: 80
@@ -648,6 +726,7 @@ MonoBehaviour:
     _reward_value: 100
     _stage_increment_hp: 170
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
   - _stage: 80
     _wave_idx: 101
     _max_monster: 50
@@ -655,3 +734,4 @@ MonoBehaviour:
     _reward_value: 30
     _stage_increment_hp: 180
     _misson_idx: 1
+    _Stage_BG: StageBG_01_01
